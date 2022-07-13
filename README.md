@@ -1,71 +1,57 @@
-# [Start Bootstrap - Business Casual](https://startbootstrap.com/theme/business-casual/)
-
-[Business Casual](https://startbootstrap.com/theme/business-casual/) is a multipurpose website theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a landing page, about page, blog page, and a contact page along with various custom styles and components.
-
-## Preview
-
-[![Business Casual Preview](https://assets.startbootstrap.com/img/screenshots/themes/business-casual.png)](https://startbootstrap.github.io/startbootstrap-business-casual/)
-
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-business-casual/)**
-
-## Status
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-business-casual/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-business-casual.svg)](https://www.npmjs.com/package/startbootstrap-business-casual)
-[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-business-casual/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-business-casual)
-[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-business-casual/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-business-casual?type=dev)
-
-## Download and Installation
-
-To begin using this template, choose one of the following options to get started:
-
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/business-casual/)
-* Install via npm: `npm i startbootstrap-business-casual`
-* Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-business-casual.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-business-casual)
-
-## Usage
-
-### Basic Usage
-
-After downloading, simply edit the HTML and CSS files included with `dist` directory. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
-
-### Advanced Usage
-
-Clone the source files of the theme and navigate into the theme's root directory. Run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `package.json` file to see which scripts are included.
-
-#### npm Scripts
-
-* `npm run build` builds the project - this builds assets, HTML, JS, and CSS into `dist`
-* `npm run build:assets` copies the files in the `src/assets/` directory into `dist`
-* `npm run build:pug` compiles the Pug located in the `src/pug/` directory into `dist`
-* `npm run build:scripts` brings the `src/js/scripts.js` file into `dist`
-* `npm run build:scss` compiles the SCSS files located in the `src/scss/` directory into `dist`
-* `npm run clean` deletes the `dist` directory to prepare for rebuilding the project
-* `npm run start:debug` runs the project in debug mode
-* `npm start` or `npm run start` runs the project, launches a live preview in your default browser, and watches for changes made to files in `src`
-
-You must have npm installed in order to use this build environment.
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-business-casual/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/theme/business-casual/).
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* <https://startbootstrap.com>
-* <https://twitter.com/SBootstrap>
-
-Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
-
-* <https://davidmiller.io>
-* <https://twitter.com/davidmillerhere>
-* <https://github.com/davidtmiller>
-
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2022 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-business-casual/blob/master/LICENSE) license.
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Home | Jasmine N Tom</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Home</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="about.html">About</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="teaching.html">Teaching</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="research.html">Research</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="resources.html">Resources</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="page-section clearfix">
+            <div class="container">
+                <div class="intro">
+                    <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="assets/img/intro.jpg" width= 200px,height= auto/>
+                    <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+                        <h2 class="section-heading mb-4"
+                            <span class="section-heading-lower">Jasmine N Tom</span>
+                        </h2>
+                        <p class="mb-3">As a fourth year undergraduate student at the 
+                        <a href="https://www.ucsc.edu/">University of California, Santa Cruz</a>, I'm working towards earning my Bachelor's of Science in Mathematics with a minor in Statistics. Currently, my research interests lie in abstract algebra with a strong emphasis on Group Theory. With my profound passion for education and empowerment, I aspire to be an equity-minded educator in my field.</p>
+                        <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="Jasmine-Tom_CV.pdf">Curriculum Vitae</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer text-faded text-center py-5">
+            <div class="container"><p class="m-0 small">Copyright 2022 &copy; All Rights Reserved.</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
