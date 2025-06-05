@@ -10,26 +10,47 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-/* Make image smaller on larger screens */
+/* Make image responsive and proportionally rectangular */
 .custom-photo {
-    max-width: auto;
+    width: 180px;
     height: auto;
+    max-height: 360px;
+    object-fit: cover;
+    border-radius: 0.5rem;
 }
 
-/* Adjust intro box position to be more centered */
+/* Default mobile layout: stack image above bio */
 .intro {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    gap: 1.5rem;
 }
 
-/* On large screens, align photo and text better */
-@media (min-width: 992px) {
+/* Center bio content box */
+.intro-text {
+    background-color: #f8f9fa; /* light background */
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* Layout for tablets and desktops */
+@media (min-width: 768px) {
     .intro {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 2rem;
+        gap: 2.5rem;
+        text-align: left;
+    }
+
+    .intro-text {
+        padding: 2rem 2.5rem;
     }
 }
 :root {
