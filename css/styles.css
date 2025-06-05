@@ -12,7 +12,7 @@
  */
 /* Make image smaller on larger screens */
 .custom-photo {
-    max-width: 220px;
+    max-width: auto;
     height: auto;
 }
 
