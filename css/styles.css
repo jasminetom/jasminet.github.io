@@ -10,15 +10,27 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-/* Center bio content box */
-.intro-text {
-    background-color: #f8f9fa; /* light background */
-    padding: 2rem;
-    border-radius: 1rem;
-    max-width: 600px;
-    width: 100%;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+html, body {
+    height: 100%;
+    margin: 0;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.page-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.intro-text {
+    min-height: 300px; /* adjust based on desired box height */
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
